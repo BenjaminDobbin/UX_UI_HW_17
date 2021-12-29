@@ -1,29 +1,50 @@
-
-
-.inline-block {
-    vertical-align: top;
-}
-
-.logo {
-    width: 23%;
-    padding: 1%;
-}
-
-.nav { width: 73%; padding: 1%;}
-
-.heroImg {
-    height: 600px;
-    padding: 25px;
-}
-
-.content {
-    width: 500px;
-    margin: 0 auto;
-}
-
-.footer {
+body {
+    margin: 0;
+  }
+  header {
+    background-color: #727272;
+    padding: 15px;
+  }
+  header ul {
+    float: right;
+    color: rgb(0, 0, 0);
+  }
+  header li {
     display: inline-block;
-    background-color: #373738;
+    padding: 0px 5px;
+  }
+  header p {
+    display: inline-block;
+  }
+  .heroImg {
+    background-color: #EBEBEB;
+    padding: 100px 15px;
+  }
+  .content {
+    max-width: 300px;
     margin: 0 auto;
-    vertical-align: baseline;
-}
+    padding: 50px;
+    background-color: #FFFFFF;
+    text-align: center;
+  }
+  button {
+    padding: 15px;
+    background-color: #373738;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+  }
+  footer {
+    background-color: #373738;
+    padding: 5px;
+    color: white;
+  }
+  footer ul {
+    list-style: none;
+    padding-left: 5px;
+  }
+  footer li {
+    display: inline-block;
+    padding: 0px 7px;
+  }
+  
